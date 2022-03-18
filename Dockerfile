@@ -297,7 +297,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repo
 ################################################################################
 # Grab small clean image #######################################################
 ################################################################################
-FROM alpine:3.13.5 as final
+FROM alpine:3.15.1 as final
 
 ############################
 # Get the build arguements #
